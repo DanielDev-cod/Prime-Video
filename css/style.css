@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+:root {
+  --preto: #1e1e1e;
+  --Branco: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100vw;
+  height: 197px;
+  background-color: var(--preto);
+}
+
+button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a {
+  color: var(--Branco);
+  padding: 20px 20px 20px 20px;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+.texto {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41.02px;
+}
+
+footer {
+  color: var(--Branco);
+  background-color: var(--preto);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
